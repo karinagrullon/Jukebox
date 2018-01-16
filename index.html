@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="shuffle()">
+
+<!-- 	<audio controls>
+	    
+	  <source src="audio/Led Zeppelin-Stairway To Heaven.mp3" type="audio/ogg">
+	    <p>Your browser doesn't support HTML5 audio. Here is a <a href="viper.mp3">link to the audio</a> instead.</p>
+	</audio> -->
+
+	<h6 id="playing" class="Playing">Playing...</h6>
+
+	<img onclick="play()" src="images/buttons/play.png" class="playButton">
+	<img onclick="pause()" src="images/buttons/pause.png" class="pauseButton">
+	<img onclick="next()" src="images/buttons/next.png" class="nextButton">
+	<img onclick="previuos()" src="images/buttons/previous.png" class="previousButton">
+	
+
+
+<!-- 	<button id="playButton" onclick="play()"> Play </button>
+	<button id="pauseButton" onclick="pause()"> Pause </button>
+	<button id="nextButton" onclick="next()"> Next </button>
+	<button id="previuosButton" onclick="previuos()"> Previus </button>
+	<button id="shuffleButton" onclick="shuffle()"> Shuffle </button> -->
+
+	<div class="playlist">
+		<p>Led Zeppelin-Stairway To Heaven</p>
+		<p>Pink Floyd-Us and Then</p>
+		<p>USA FOR AFRICA -We Are The World</p>
+	</div>	
+
+
+	<div id="f-Song">
+		<audio id="f-audio" src="audio/Led Zeppelin-Stairway To Heaven.mp3"></audio>
+
+	</div>
+
+	<script type="text/javascript" src="js/global.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+body  {
+    background-image: url("../images/ipod.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+}
+
+.Playing {
+	color: #fcfcfc;
+	position: absolute;
+    left: 705px;
+    top: 185px;
+}
+
+.playlist {
+	font-size: 10px;
+	color: #fcfcfc;
+	position: absolute;
+    left: 705px;
+    top: 245px;
+}
+
+.playButton, .pauseButton, .nextButton, .previousButton {
+	position: absolute;
+}
+
+.playButton:hover, .pauseButton:hover, .nextButton:hover, .previousButton:hover{
+	opacity: 0.5;
+}
+
+.playButton {
+	left: 785px;
+	top: 405px;
+}
+
+.pauseButton {
+	left: 785px;
+	top: 520px;
+}
+
+.nextButton {
+	left: 845px;
+	top: 455px;
+}
+
+.previousButton {
+	left: 725px;
+	top: 455px;
+}
